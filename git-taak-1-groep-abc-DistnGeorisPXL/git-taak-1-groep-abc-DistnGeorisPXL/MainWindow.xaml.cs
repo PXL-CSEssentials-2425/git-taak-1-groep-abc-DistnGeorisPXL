@@ -21,6 +21,11 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
             InitializeComponent();
         }
 
+        const string greenCode = "#008000";
+        const string yellowCode = "#FFFF00";
+        const string blueCode = "#0000FF";
+        const string redCode = "#FF0000";
+
         private void greenImage_MouseEnter(object sender, MouseEventArgs e)
         {
 
@@ -74,6 +79,34 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
         {
 
             mainWindow.Background = Brushes.White;
+
+        }
+
+        private void greenImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+            imageSelectionTextBox.Text = greenCode;
+
+        }
+
+        private void yellowImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+            imageSelectionTextBox.Text = yellowCode;
+
+        }
+
+        private void blueImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+            imageSelectionTextBox.Text = blueCode;
+
+        }
+
+        private void redImage_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+            imageSelectionTextBox.Text = redCode;
 
         }
     }
