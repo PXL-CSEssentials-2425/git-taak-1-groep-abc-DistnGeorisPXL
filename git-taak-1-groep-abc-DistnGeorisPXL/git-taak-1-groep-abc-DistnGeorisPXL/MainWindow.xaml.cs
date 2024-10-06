@@ -20,5 +20,61 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
         {
             InitializeComponent();
         }
+
+        private void greenImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.Green;
+
+        }
+
+        private void greenImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.White;
+
+        }
+
+        private void yellowImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.Yellow;
+
+        }
+
+        private void yellowImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.White;
+
+        }
+
+        private void blueImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.Blue;
+
+        }
+
+        private void blueImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.White;
+
+        }
+
+        private void redImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.Red;
+
+        }
+
+        private void redImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+
+            mainWindow.Background = Brushes.White;
+
+        }
     }
 }
