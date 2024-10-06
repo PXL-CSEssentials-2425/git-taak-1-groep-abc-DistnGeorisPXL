@@ -25,6 +25,10 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
         const string yellowCode = "#FFFF00";
         const string blueCode = "#0000FF";
         const string redCode = "#FF0000";
+        const string greenInformation = "Groen is de kleur van genezing";
+        const string yellowInformation = "Geel is de kleur van levenslust";
+        const string blueInformation = "Blauw is de kleur van intelligentie";
+        const string redInformation = "Rood is de kleur van warmte";
 
         private void greenImage_MouseEnter(object sender, MouseEventArgs e)
         {
@@ -86,6 +90,7 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
         {
 
             imageSelectionTextBox.Text = greenCode;
+            informationTextBox.Text = greenInformation;
 
         }
 
@@ -93,6 +98,7 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
         {
 
             imageSelectionTextBox.Text = yellowCode;
+            informationTextBox.Text = yellowInformation;
 
         }
 
@@ -100,6 +106,7 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
         {
 
             imageSelectionTextBox.Text = blueCode;
+            informationTextBox.Text = blueInformation;
 
         }
 
@@ -107,6 +114,7 @@ namespace git_taak_1_groep_abc_DistnGeorisPXL
         {
 
             imageSelectionTextBox.Text = redCode;
+            informationTextBox.Text = redInformation;
 
         }
     }
