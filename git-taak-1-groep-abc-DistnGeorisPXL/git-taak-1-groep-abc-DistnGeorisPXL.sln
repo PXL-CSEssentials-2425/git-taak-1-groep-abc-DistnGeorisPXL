@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git-taak-1-groep-abc-DistnGeorisPXL", "git-taak-1-groep-abc-DistnGeorisPXL\git-taak-1-groep-abc-DistnGeorisPXL.csproj", "{2788C617-FB39-4C17-B877-8A2E9C90388A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2788C617-FB39-4C17-B877-8A2E9C90388A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2788C617-FB39-4C17-B877-8A2E9C90388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2788C617-FB39-4C17-B877-8A2E9C90388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2788C617-FB39-4C17-B877-8A2E9C90388A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {978353FF-991C-4D9F-A8F9-1BC7FB555FA1}
+	EndGlobalSection
+EndGlobal
